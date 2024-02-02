@@ -11,7 +11,7 @@ const errorHandler = (err, req, res, next) => {
     },
   };
 
-  // Enviar respuesta de error en formato JSON
+
   res.status(statusCode).json(errorResponse);
 };
 

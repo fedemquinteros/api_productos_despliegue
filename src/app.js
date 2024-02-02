@@ -28,7 +28,7 @@ app.get("/health", (req, res) => {
 });
 
 
-// Rutas de productos
+
 app.use("/api/productos",oauthCheck, productosRouter);
 
 app.use(errorHandler);
